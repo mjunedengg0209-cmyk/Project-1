@@ -1,13 +1,63 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-p{
-    font-size: 20px;
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/057/779/247/large_2x/lush-green-rainforest-valley-landscape-with-majestic-mountains-and-fog-photo.jpeg");
+   padding-top:  1px; ;
+    #nav1 {
+        width: 80%;
+        margin-left: 10%;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 2%;
+        position: relative;
+        
+        h1 {
+            font-size: 20px;
+            color: white;
+        }
+        h1:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #logo {
+            height: 50px;
+            border-radius: 3px;
+            margin-left: -85px;
+        }
+        #search {
+            height: 30px;
+            transition: all ease 0.123s;
+            filter: invert(50%);
+        }
+        #search:hover {
+            scale: 1.1;
+            filter: invert(100%);
+            text-decoration: underline white;
+        }
+    }
+    #nav1 ::after{
+        content: "";   
+position: absolute;
+bottom: 0;
+left: 13%;
+width: 72%;
+border-bottom:3px solid white ;
+    }
 }
