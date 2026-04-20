@@ -107,8 +107,9 @@ pointer-events: none;
     padding: 8px 18px;
     border-radius: 50px;
     margin-top: 5px;
-    background-color: rgb(185, 200, 187);
+    background-color: white;
     transition: all ease 0.5s;
+    border: 2px solid black;
     text-decoration: none;
     
     
@@ -135,16 +136,17 @@ pointer-events: none;
     background-color: black;
     /* background:linear-gradient(to bottom,red , orange, black ,blue) ; */
 }
-#page2 h1{
+#page2 #page2-heading{
     font-size: 40px;
     margin-bottom: 30px;
+    color: white;
 }
 #page2 #box1{
  display: flex;
  align-items: center; 
  justify-content: space-between;  
  padding: 4%;
- background-color: aqua;
+ background-color: black;
  height: 500px;
  width: 100%;
 }
@@ -183,7 +185,33 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-T
 }
 
 
-#page2 #box1 #box1-X h1{
+#page2 #box1 .box1-X h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 320px;
     
 }
+#page2 #box1 .box1-X button{
+padding: 5px 10px;
+border-radius: 23px;
+background-color: rgb(236, 236, 241);
+color: black;
+border: solid black 2px;
+cursor: pointer;
 
+}
+#page2 #box1 .box1-X button:hover{
+    color: black;
+    background-color: rgb(11, 164, 11);
+    scale: 1.1;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+   
+     background:linear-gradient(to bottom ,black 5%, rgba(0, 0, 0, 0) ), url("https://images.unsplash.com/photo-1622572860925-daa5e4219d53?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwYWVyaWFsfGVufDB8fDB8fHww");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
