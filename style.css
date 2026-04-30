@@ -13,13 +13,13 @@ body {
 #page1 {
     height: 100%;
     width: 100%;
- 
-    background:linear-gradient(to bottom , rgba(0, 0, 0, 0) 80%, black), url("https://static.vecteezy.com/system/resources/previews/057/779/247/large_2x/lush-green-rainforest-valley-landscape-with-majestic-mountains-and-fog-photo.jpeg");
-   padding-top:  1px; 
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black), url("https://static.vecteezy.com/system/resources/previews/057/779/247/large_2x/lush-green-rainforest-valley-landscape-with-majestic-mountains-and-fog-photo.jpeg");
+    padding-top: 1px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
+
     #nav1 {
         width: 80%;
         margin-left: 10%;
@@ -29,81 +29,91 @@ body {
         justify-content: space-around;
         margin-top: 2%;
         position: relative;
-        
+
         h1 {
             font-size: 20px;
             color: white;
         }
+
         h1:hover {
             text-decoration: underline;
             cursor: pointer;
         }
+
         #logo {
             height: 50px;
             border-radius: 3px;
             margin-left: -85px;
         }
+
         #search {
             height: 30px;
             transition: all ease 0.123s;
             filter: invert(50%);
         }
+
         #search:hover {
             scale: 1.1;
             filter: invert(100%);
             text-decoration: underline white;
         }
     }
-    #nav1 ::after{
-        content: "";   
-position: absolute;
-bottom: 0;
-left: 13%;
-width: 72%;
-border-bottom:3px solid white ;
+
+    #nav1 ::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 13%;
+        width: 72%;
+        border-bottom: 3px solid white;
     }
 }
-#page1 #box1{
+
+#page1 #box1 {
     margin-top: 220px;
     margin-left: 100px;
     position: relative;
 }
 
-#page1 #box1 h1{
-font-style: italic;
-font-size: 80px;
-color: aliceblue;
-}
-#page1 #box1 p{
-font-style: italic;
-font-size: 20px;
-color: aliceblue;
-width: 400px;
+#page1 #box1 h1 {
+    font-style: italic;
+    font-size: 80px;
+    color: aliceblue;
 }
 
-#page1 #box2{
+#page1 #box1 p {
+    font-style: italic;
+    font-size: 20px;
+    color: aliceblue;
+    width: 400px;
+}
+
+#page1 #box2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     bottom: 100px;
-   margin-top: 70px;
-   width: 80%;
-   margin-left: 7%;
-   
+    margin-top: 70px;
+    width: 80%;
+    margin-left: 7%;
+
 }
-#page1 #box2 ::after{
-        content: "";   
-position: absolute;
-bottom: 3%;
-left: 6.8%;
-width: 79%;
-border-bottom:3px solid white ;
-pointer-events: none;
-    }
-#page1 #box2 .inbox2{
+
+#page1 #box2 ::after {
+    content: "";
+    position: absolute;
+    bottom: 3%;
+    left: 6.8%;
+    width: 79%;
+    border-bottom: 3px solid white;
+    pointer-events: none;
+}
+
+#page1 #box2 .inbox2 {
     padding: 10px;
 }
-#page1 #box2 .inbox2 button{
+
+#page1 #box2 .inbox2 button {
     padding: 8px 18px;
     border-radius: 50px;
     margin-top: 5px;
@@ -111,24 +121,27 @@ pointer-events: none;
     transition: all ease 0.5s;
     border: 2px solid black;
     text-decoration: none;
-    
-    
+
+
 }
-#page1 #box2 .inbox2 button:hover{
-   scale: 1.1;
-   text-decoration: none;
-   cursor: pointer;
+
+#page1 #box2 .inbox2 button:hover {
+    scale: 1.1;
+    text-decoration: none;
+    cursor: pointer;
 }
-#page1 #box2 .inbox2 p{
+
+#page1 #box2 .inbox2 p {
     color: aliceblue;
 }
-#page1 #box2 .inbox2 img{
+
+#page1 #box2 .inbox2 img {
     height: 60px;
 }
 
 
 
-#page2{
+#page2 {
     height: 100%;
     width: 100%;
     text-align: center;
@@ -136,82 +149,108 @@ pointer-events: none;
     background-color: black;
     /* background:linear-gradient(to bottom,red , orange, black ,blue) ; */
 }
-#page2 #page2-heading{
+
+#page2 #page2-heading {
     font-size: 40px;
     margin-bottom: 30px;
     color: white;
 }
-#page2 #box1{
- display: flex;
- align-items: center; 
- justify-content: space-between;  
- padding: 4%;
- background-color: black;
- height: 500px;
- width: 100%;
+
+#page2 #box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+    background-color: black;
+    height: 500px;
+    width: 100%;
 }
 
-#page2 #box1 #box1-1{
-height: 400px;
-width: 200px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1000_Eiffel_tower_night_illumination_by_Pierre_Bideau_in_Paris_Photo_by_Giles_Laurent.jpg/250px-1000_Eiffel_tower_night_illumination_by_Pierre_Bideau_in_Paris_Photo_by_Giles_Laurent.jpg");
+#page2 #box1 #box1-1 {
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1000_Eiffel_tower_night_illumination_by_Pierre_Bideau_in_Paris_Photo_by_Giles_Laurent.jpg/250px-1000_Eiffel_tower_night_illumination_by_Pierre_Bideau_in_Paris_Photo_by_Giles_Laurent.jpg");
 }
-#page2 #box1 #box1-2{
-height: 400px;
-width: 200px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-image: url("https://static.vecteezy.com/system/resources/thumbnails/013/891/829/small/fantastic-mediterranean-santorini-island-greece-amazing-romantic-sunrise-in-oia-background-morning-light-amazing-sunset-view-with-white-houses-blue-domes-panoramic-travel-landscape-lovers-island-photo.jpg");
+
+#page2 #box1 #box1-2 {
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/013/891/829/small/fantastic-mediterranean-santorini-island-greece-amazing-romantic-sunrise-in-oia-background-morning-light-amazing-sunset-view-with-white-houses-blue-domes-panoramic-travel-landscape-lovers-island-photo.jpg");
 }
-#page2 #box1 #box1-3{
-height: 400px;
-width: 200px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzn2TH7tiGDdWv4zQQOeS2bon6Mf7WBxKcdQ&s");
+
+#page2 #box1 #box1-3 {
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzn2TH7tiGDdWv4zQQOeS2bon6Mf7WBxKcdQ&s");
 }
-#page2 #box1 #box1-4{
-height: 400px;
-width: 200px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaKh0Vw7c8xQNMD-YzuZfHkFQBrrsuukoA&s");
+
+#page2 #box1 #box1-4 {
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaKh0Vw7c8xQNMD-YzuZfHkFQBrrsuukoA&s");
 }
 
 
-#page2 #box1 .box1-X h1{
+#page2 #box1 .box1-X h1 {
     color: white;
     font-size: 30px;
     margin-top: 320px;
-    
-}
-#page2 #box1 .box1-X button{
-padding: 5px 10px;
-border-radius: 23px;
-background-color: rgb(236, 236, 241);
-color: black;
-border: solid black 2px;
-cursor: pointer;
 
 }
-#page2 #box1 .box1-X button:hover{
+
+#page2 #box1 .box1-X button {
+    padding: 5px 10px;
+    border-radius: 23px;
+    background-color: rgb(236, 236, 241);
+    color: black;
+    border: solid black 2px;
+    cursor: pointer;
+
+}
+
+#page2 #box1 .box1-X button:hover {
     color: black;
     background-color: rgb(11, 164, 11);
     scale: 1.1;
 }
-#page3{
+
+#page3 {
     height: 100%;
     width: 100%;
-   
-     background:linear-gradient(to bottom ,black 5%, rgba(0, 0, 0, 0) ), url("https://images.unsplash.com/photo-1622572860925-daa5e4219d53?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwYWVyaWFsfGVufDB8fDB8fHww");
-   
+    background: linear-gradient(to bottom, black 5%, rgba(0, 0, 0, 0)), url("https://images.unsplash.com/photo-1622572860925-daa5e4219d53?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwYWVyaWFsfGVufDB8fDB8fHww");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#page3 #box1 {
+    height: 420px;
+    width: 510px;
+    position: absolute;
+padding: 20px;
+margin-top: 200px;
+margin-left: 50px;
+z-index: 1;
+
+}
+#page3 #box1 #page3_h1{
+    color: white;
+    font-size: 60px;
+    width: 500px;
+}
+#page3 #box1 #page3_p1{
+    color: white;
+    font-size: 25px;
+    width: 400px;
 }
