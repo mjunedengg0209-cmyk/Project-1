@@ -1,6 +1,3 @@
 # Project-1
- created while learning to use github 
- author
- <br>
- upper
- 
+
+it started as just a practicefor learning git hub but then i created my first front end design using HTML and CSS which i have uploadede on GIT
